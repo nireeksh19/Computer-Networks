@@ -15,8 +15,8 @@ void receiver(int *frame, int l2)
         {
             if (counter == 5)
             {
-                msg[j] = frame[i];
-                j++;
+                // msg[j] = frame[i];
+                // j++;
                 counter = 0;
             }
             else
